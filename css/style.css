@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Pacifico-Regular';
+  src: url('../img/Pacifico-Regular.ttf') format('truetype');
+}
+
+
+/* NavBar */
+.navbar {
+  background-color: rgb(117, 42, 105);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  font-family: 'Pacifico-Regular', sans-serif;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+
+.nav-link:hover {
+  background-color: rgb(109, 109, 58);
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: wheat;
+}
+
+.main {
+  background-image: url("../img/DisGenis.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Pacifico-Regular', sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: 150px;
+}
+
+.new {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.resimler {
+  background-color: rgb(243, 243, 243);
+}
+
+.leftimg {
+  background-color: rgb(235, 225, 232);
+}
+
+.rightimg {
+  background-color: rgb(235, 235, 235);
+}
+
+.location {
+  background-color: rgba(235, 229, 234, 0.781);
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-logo {
+  font-family: 'Pacifico-Regular', sans-serif;
+  font-size: 2rem;
+}
+
+#gallery-modal .modal-img{
+  width: 100%;
+}
+
+.gallery-item:hover {
+  cursor: pointer;
+}
